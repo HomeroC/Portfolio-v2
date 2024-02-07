@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";
 import { BsPerson } from "react-icons/bs";
+import { IoGameControllerOutline } from "react-icons/io5";
 
 function Nav() {
   const [nav, setNav] = useState(false);
@@ -27,6 +28,13 @@ function Nav() {
             className="w-[75%] flex justify-center items-center rounded-full showdow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <AiOutlineHome size={20} />
+            <span className="pl-4">Home</span>
+          </a>
+          <a
+            href="#about"
+            className="w-[75%] flex justify-center items-center rounded-full showdow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <IoGameControllerOutline size={20} />
             <span className="pl-4">Home</span>
           </a>
           {/* <a
@@ -69,6 +77,12 @@ function Nav() {
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <AiOutlineHome size={20} />
+          </a>
+          <a
+            href="#about"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            <IoGameControllerOutline size={20} />
           </a>
           {/* <a
             href="#work"
