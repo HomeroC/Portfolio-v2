@@ -19,9 +19,9 @@ function Projects() {
         development and delivering exceptional results.
       </p>
       <div className="grid sm:grid-cols-2 gap-10">
-        <ProjectItem img={ThumbnailIMG} title="Anime GO" tech="Javascript" />
-        <ProjectItem img={gameIMG} title="Tic-Tac-Toe" tech="React Js" />
-        <ProjectItem img={movieIMG} title="Movie Watchlist" tech="React Js" />
+        <ProjectItem img={ThumbnailIMG} title="Anime GO" tech="Javascript" href="../Screens/Thumbnail.jsx" />
+        <ProjectItem img={gameIMG} title="Tic-Tac-Toe" tech="React Js" href="../Screens/game.jsx" />
+        <ProjectItem img={movieIMG} title="Movie Watchlist" tech="React Js" href="../Screens/movie.jsx" />
       </div>
     </div>
   );

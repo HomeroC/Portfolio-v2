@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../assets/resume.pdf'
 
 function About() {
   return (
@@ -14,6 +15,7 @@ function About() {
         automotive designs or spending quality time with my favorite four-legged
         friends, corgis!
       </p>
+      {/* <a download='resume.pdf' href={resume}>Download Resume</a> */}
     </div>
   );
 }
