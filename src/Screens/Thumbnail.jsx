@@ -1,5 +1,5 @@
 import React from 'react'
-import ThumbnailIMG from '../assets/thumbnail.png'
+import ThumbnailIMG from '../assets/Thumbnail.png'
 import { FaGithub } from 'react-icons/fa'
 
 function Thumbnail() {
