@@ -37,11 +37,11 @@ function Main() {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <a href="">
+            <a href="https://github.com/HomeroC" target="_blank">
               <FaGithub className="cursor-pointer" size={20} alt="Github" />
             </a>
 
-            <a href="">
+            <a href="https://www.linkedin.com/in/homero-cazares-jr-1723a8119/" target="_blank">
               <FaLinkedin className="cursor-pointer" size={20} />
             </a>
 
@@ -49,9 +49,6 @@ function Main() {
               <FaSquareXTwitter className="cursor-pointer" size={20} />
             </a>
 
-            <a href="">
-              <FaFacebookF className="cursor-pointer" size={20} />
-            </a>
           </div>
         </div>
       </div>

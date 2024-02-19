@@ -1,5 +1,6 @@
 import React from "react";
 import GameIMG from "../assets/game.png";
+import { FaGithub } from "react-icons/fa";
 
 function Game() {
   return (
@@ -38,24 +39,21 @@ function Game() {
         <h2 className="text-2xl font-bold text-[#e0e1dd]">Game Screenshots</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
           <div>
-            <img
-              src={GameIMG}
-              alt="React Tic Tac Toe"
-              className="w-16 md:w-32 lg:w-48
-              h-16 md:h-32 lg:h-48"
-            />
+            <img src={GameIMG} alt="React Tic Tac Toe" className="" />
           </div>
-          <div>
+          {/* <div>
             <img src="" alt="React Tic Tac Toe " className="" />
-          </div>
+          </div> */}
         </div>
       </section>
       <div>
         <h2 className="text-2xl font-bold text-[#e0e1dd]">Technologies Used</h2>
-        <p className="py-4 text-xl">
-        React | JavaScript | HTML | CSS
-        </p>
+        <p className="py-4 text-xl">React | JavaScript | HTML | CSS</p>
       </div>
+      <a href="https://github.com/HomeroC/react-tic-tac-toe">
+        <FaGithub className="cursor-pointer" size={50} alt="Github" />
+      </a>
+      Github Repo
     </div>
   );
 }
