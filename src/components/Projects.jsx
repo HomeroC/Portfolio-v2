@@ -2,7 +2,8 @@ import React from 'react'
 import ProjectItem from './ProjectItem'
 import ThumbnailIMG from '../assets/Thumbnail.png'
 import gameIMG from '../assets/game.png'
-import movieIMG from '../assets/movie.png'
+import HomeScreen from "../assets/AnimeGo/HomeScreen.png";
+
 
 function Projects() {
   return (
@@ -23,7 +24,7 @@ function Projects() {
 
         <ProjectItem img={gameIMG} title="Tic-Tac-Toe" tech="React Js" href="/game-app" />
 
-        <ProjectItem img={movieIMG} title="Movie Watchlist" tech="React Js" href="/movie-app" />
+        <ProjectItem img={HomeScreen} title="Anime Go `Plus Ultra`" tech="React Js" href="/movie-app" />
       </div>
     </div>
   );

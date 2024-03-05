@@ -38,17 +38,19 @@ function Main() {
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
             <a href="https://github.com/HomeroC" target="_blank">
-              <FaGithub className="cursor-pointer" size={20} alt="Github" />
+              <FaGithub className="cursor-pointer" size={30} alt="Github" />
             </a>
 
-            <a href="https://www.linkedin.com/in/homero-cazares-jr-1723a8119/" target="_blank">
-              <FaLinkedin className="cursor-pointer" size={20} />
+            <a
+              href="https://www.linkedin.com/in/homero-cazares-jr-1723a8119/"
+              target="_blank"
+            >
+              <FaLinkedin className="cursor-pointer" size={30} />
             </a>
 
-            <a href="">
-              <FaSquareXTwitter className="cursor-pointer" size={20} />
+            <a href="https://twitter.com/home">
+              <FaSquareXTwitter className="cursor-pointer" size={30} />
             </a>
-
           </div>
         </div>
       </div>

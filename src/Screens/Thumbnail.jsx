@@ -34,7 +34,7 @@ function Thumbnail() {
         <h2 className="text-2xl font-bold text-[#e0e1dd]">Screenshots</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
           <div>
-            <img src={ThumbnailIMG} alt="React Movie App" className="" />
+            <img src={ThumbnailIMG} alt="React Movie App" className="rounded-xl" />
           </div>
           <div>
             <img src="" alt="" className="" />
